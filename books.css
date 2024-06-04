@@ -1,0 +1,44 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color:rgb(235, 204, 255);
+}
+.NunitoFont{
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.name{
+    display: flex;
+    justify-content:center;
+}
+.search-container{
+    display: flex;
+    justify-content:center;
+}
+.searchBut{
+    width: 40px;
+    padding-left: 20px;
+}
+header{
+    background-color: rgb(174, 135, 222);
+    padding-bottom: 35px;
+}
+#search-input{
+    border-radius:10px;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color:white;
+    width: 280px;
+    margin:10px
+}
