@@ -37,8 +37,53 @@ header{
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+
+.footer{
+    background-color:rgb(174, 135, 222);
+    height: 100px;
+    padding: 20px;
+}
+.cover{
+    height: 200px;
+}
 .card{
     background-color:white;
-    width: 280px;
-    margin:10px
+    margin: 10px;
+    display: flex;
+    width: 350px;
+    height: 550px;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.bookname, .authors, .category{
+    width: 250px;
+    text-align: center;
+}
+.card>div{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.input-container {
+    display: flex;
+    overflow: hidden;
+}
+
+#search-input {
+    flex-grow: 1;
+    border: none;
+    padding: 5px;
+}
+
+.input-button {
+    border: none;
+    background-color: #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: -25px;
+    background-color:transparent;
+    color:red;
 }
